@@ -1,0 +1,26 @@
+-- drop database Secspring24
+
+-- create database Secspring24
+
+--  CREATE TABLE Secspring24.users (
+--    id INT NOT NULL AUTO_INCREMENT,
+--    name VARCHAR(45) NULL,
+--    lastname VARCHAR(45) NULL,
+--    username VARCHAR(45) NULL,
+--    password VARCHAR(85) NULL,
+--    age INT NULL,
+--   PRIMARY KEY (id));
+--  CREATE TABLE Secspring24.roles (
+--    id int NOT NULL AUTO_INCREMENT,
+--    name varchar(15),
+--    PRIMARY KEY (id)
+--   );
+--  CREATE TABLE Secspring24.users_role (
+--    user_id int NOT NULL,
+--    role_id int NOT NULL,
+--    PRIMARY KEY (user_id, role_id),
+--    FOREIGN KEY (user_id) REFERENCES Secspring24.users(id),
+--    FOREIGN KEY (role_id) REFERENCES Secspring24.roles(id));
+
+-- insert into Secspring24.roles(name) values ("ROLE_ADMIN"),("ROLE_USER")
+
